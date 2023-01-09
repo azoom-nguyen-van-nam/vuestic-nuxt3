@@ -13,5 +13,7 @@ const colors = {
 export default {
   config: {
     colors
-  }
+  },
+  css: false,
+  fonts: true
 }

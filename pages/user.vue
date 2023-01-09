@@ -1,11 +1,5 @@
 <script lang="ts" setup></script>
 
 <template>
-  <va-button class="button">  </va-button>
+  <va-button class="button"> Button </va-button>
 </template>
-
-<style scoped>
-.button {
-  --va-button-display: flex;
-}
-</style>

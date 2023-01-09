@@ -1,6 +1,6 @@
+import vuestic from './vuestic.config'
+
 export default defineNuxtConfig({
-  css: ['~~/assets/css/main.css', 'vuestic-ui/dist/vuestic-ui.css'],
-  build: {
-    transpile: ['vuestic-ui']
-  }
+  modules: ['@vuestic/nuxt'],
+  vuestic
 })
